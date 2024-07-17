@@ -1,0 +1,865 @@
+diff --git a/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a/metadata_generation_command.txt b/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a/metadata_generation_command.txt
+new file mode 100644
+index 0000000..43bc848
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a/metadata_generation_command.txt
+@@ -0,0 +1,23 @@
++                        -H/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android
++-DCMAKE_SYSTEM_NAME=Android
++-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
++-DCMAKE_SYSTEM_VERSION=21
++-DANDROID_PLATFORM=android-21
++-DANDROID_ABI=arm64-v8a
++-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
++-DANDROID_NDK=/Users/kevin/Library/Android/sdk/ndk/26.1.10909125
++-DCMAKE_ANDROID_NDK=/Users/kevin/Library/Android/sdk/ndk/26.1.10909125
++-DCMAKE_TOOLCHAIN_FILE=/Users/kevin/Library/Android/sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake
++-DCMAKE_MAKE_PROGRAM=/Users/kevin/Library/Android/sdk/cmake/3.22.1/bin/ninja
++-DCMAKE_CXX_FLAGS=-O2 -fexceptions -frtti -std=c++1y -DONANDROID
++-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/obj/arm64-v8a
++-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/obj/arm64-v8a
++-DCMAKE_BUILD_TYPE=Debug
++-DCMAKE_FIND_ROOT_PATH=/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/prefab/arm64-v8a/prefab
++-B/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a
++-GNinja
++-DANDROID_STL=c++_shared
++-DSQLITE_FLAGS=''
++-DUSE_HERMES=true
++                        Build command args: []
++                        Version: 2
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a/prefab_config.json b/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a/prefab_config.json
+new file mode 100644
+index 0000000..69476fc
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a/prefab_config.json
+@@ -0,0 +1,8 @@
++{
++  "enabled": true,
++  "prefabPath": "/Users/kevin/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar",
++  "packages": [
++    "/Users/kevin/.gradle/caches/transforms-4/e66d8d99b1d5312de9d2d1b90139c764/transformed/jetified-react-android-0.74.3-debug/prefab",
++    "/Users/kevin/.gradle/caches/transforms-4/c7e26f7d3c2fc1a6636ff1467fc77795/transformed/jetified-fbjni-0.6.0/prefab"
++  ]
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/hash_key.txt b/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/hash_key.txt
+new file mode 100644
+index 0000000..1448d78
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/hash_key.txt
+@@ -0,0 +1,30 @@
++# Values used to calculate the hash in this folder name.
++# Should not depend on the absolute path of the project itself.
++#   - AGP: 8.2.1.
++#   - $NDK is the path to NDK 26.1.10909125.
++#   - $PROJECT is the path to the parent folder of the root Gradle build file.
++#   - $ABI is the ABI to be built with. The specific value doesn't contribute to the value of the hash.
++#   - $HASH is the hash value computed from this text.
++#   - $CMAKE is the path to CMake 3.22.1.
++#   - $NINJA is the path to Ninja.
++-H/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android
++-DCMAKE_SYSTEM_NAME=Android
++-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
++-DCMAKE_SYSTEM_VERSION=21
++-DANDROID_PLATFORM=android-21
++-DANDROID_ABI=$ABI
++-DCMAKE_ANDROID_ARCH_ABI=$ABI
++-DANDROID_NDK=$NDK
++-DCMAKE_ANDROID_NDK=$NDK
++-DCMAKE_TOOLCHAIN_FILE=$NDK/build/cmake/android.toolchain.cmake
++-DCMAKE_MAKE_PROGRAM=$NINJA
++-DCMAKE_CXX_FLAGS=-O2 -fexceptions -frtti -std=c++1y -DONANDROID
++-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/$HASH/obj/$ABI
++-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/$HASH/obj/$ABI
++-DCMAKE_BUILD_TYPE=Debug
++-DCMAKE_FIND_ROOT_PATH=/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/$HASH/prefab/$ABI/prefab
++-B/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/$HASH/$ABI
++-GNinja
++-DANDROID_STL=c++_shared
++-DSQLITE_FLAGS=''
++-DUSE_HERMES=true
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build.gradle b/node_modules/react-native-quick-sqlite/android/build.gradle
+index afcda02..3faaf76 100644
+--- a/node_modules/react-native-quick-sqlite/android/build.gradle
++++ b/node_modules/react-native-quick-sqlite/android/build.gradle
+@@ -63,7 +63,7 @@ android {
+   }
+ 
+   defaultConfig {
+-    minSdkVersion 21 
++    minSdkVersion 23 
+     targetSdkVersion safeExtGet('targetSdkVersion', 28)
+     versionCode 1
+     versionName "1.0"
+diff --git a/node_modules/react-native-quick-sqlite/android/build/.transforms/c5dc0c214d16b9348f587550acd4b8d8/results.bin b/node_modules/react-native-quick-sqlite/android/build/.transforms/c5dc0c214d16b9348f587550acd4b8d8/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/.transforms/c5dc0c214d16b9348f587550acd4b8d8/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-quick-sqlite/android/build/.transforms/c5dc0c214d16b9348f587550acd4b8d8/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-quick-sqlite/android/build/.transforms/c5dc0c214d16b9348f587550acd4b8d8/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..220a44f
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/.transforms/c5dc0c214d16b9348f587550acd4b8d8/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-quick-sqlite/android/build/generated/source/buildConfig/debug/com/reactnativequicksqlite/BuildConfig.java b/node_modules/react-native-quick-sqlite/android/build/generated/source/buildConfig/debug/com/reactnativequicksqlite/BuildConfig.java
+new file mode 100644
+index 0000000..bb02d55
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/generated/source/buildConfig/debug/com/reactnativequicksqlite/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.reactnativequicksqlite;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "com.reactnativequicksqlite";
++  public static final String BUILD_TYPE = "debug";
++}
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml b/node_modules/react-native-quick-sqlite/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..65ada26
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.reactnativequicksqlite" >
++
++    <uses-sdk android:minSdkVersion="21" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json b/node_modules/react-native-quick-sqlite/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json
+new file mode 100644
+index 0000000..c903659
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.reactnativequicksqlite",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/aar_metadata/debug/aar-metadata.properties b/node_modules/react-native-quick-sqlite/android/build/intermediates/aar_metadata/debug/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/aar_metadata/debug/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json b/node_modules/react-native-quick-sqlite/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/compile_library_classes_jar/debug/classes.jar b/node_modules/react-native-quick-sqlite/android/build/intermediates/compile_library_classes_jar/debug/classes.jar
+new file mode 100644
+index 0000000..d7046e6
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/intermediates/compile_library_classes_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/compile_r_class_jar/debug/R.jar b/node_modules/react-native-quick-sqlite/android/build/intermediates/compile_r_class_jar/debug/R.jar
+new file mode 100644
+index 0000000..1fff931
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/intermediates/compile_r_class_jar/debug/R.jar differ
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/compile_symbol_list/debug/R.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/compile_symbol_list/debug/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/build_model.json b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/build_model.json
+new file mode 100644
+index 0000000..5d62848
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/build_model.json
+@@ -0,0 +1,204 @@
++{
++  "info": {
++    "name": "arm64-v8a",
++    "bitness": 64,
++    "isDefault": true,
++    "isDeprecated": false,
++    "architecture": "arm64",
++    "triple": "aarch64-linux-android",
++    "llvmTriple": "aarch64-none-linux-android"
++  },
++  "cxxBuildFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a",
++  "soFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/obj/arm64-v8a",
++  "soRepublishFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cmake/debug/obj/arm64-v8a",
++  "abiPlatformVersion": 21,
++  "cmake": {
++    "effectiveConfiguration": {
++      "inheritEnvironments": [],
++      "variables": []
++    }
++  },
++  "variant": {
++    "buildSystemArgumentList": [
++      "-DANDROID_STL\u003dc++_shared",
++      "-DSQLITE_FLAGS\u003d\u0027\u0027",
++      "-DUSE_HERMES\u003dtrue"
++    ],
++    "cFlagsList": [],
++    "cppFlagsList": [
++      "-O2",
++      "-fexceptions",
++      "-frtti",
++      "-std\u003dc++1y",
++      "-DONANDROID"
++    ],
++    "variantName": "debug",
++    "isDebuggableEnabled": true,
++    "validAbiList": [
++      "armeabi-v7a",
++      "arm64-v8a",
++      "x86",
++      "x86_64"
++    ],
++    "buildTargetSet": [],
++    "implicitBuildTargetSet": [],
++    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
++    "module": {
++      "cxxFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx",
++      "intermediatesBaseFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates",
++      "intermediatesFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx",
++      "gradleModulePathName": ":react-native-quick-sqlite",
++      "moduleRootFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android",
++      "moduleBuildFile": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build.gradle",
++      "makeFile": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/CMakeLists.txt",
++      "buildSystem": "CMAKE",
++      "ndkFolder": "/Users/kevin/Library/Android/sdk/ndk/26.1.10909125",
++      "ndkFolderBeforeSymLinking": "/Users/kevin/Library/Android/sdk/ndk/26.1.10909125",
++      "ndkVersion": "26.1.10909125",
++      "ndkSupportedAbiList": [
++        "armeabi-v7a",
++        "arm64-v8a",
++        "x86",
++        "x86_64"
++      ],
++      "ndkDefaultAbiList": [
++        "armeabi-v7a",
++        "arm64-v8a",
++        "x86",
++        "x86_64"
++      ],
++      "ndkDefaultStl": "LIBCXX_STATIC",
++      "ndkMetaPlatforms": {
++        "min": 21,
++        "max": 34,
++        "aliases": {
++          "20": 19,
++          "25": 24,
++          "J": 16,
++          "J-MR1": 17,
++          "J-MR2": 18,
++          "K": 19,
++          "L": 21,
++          "L-MR1": 22,
++          "M": 23,
++          "N": 24,
++          "N-MR1": 24,
++          "O": 26,
++          "O-MR1": 27,
++          "P": 28,
++          "Q": 29,
++          "R": 30,
++          "S": 31,
++          "Sv2": 32,
++          "Tiramisu": 33,
++          "UpsideDownCake": 34
++        }
++      },
++      "ndkMetaAbiList": [
++        {
++          "name": "armeabi-v7a",
++          "bitness": 32,
++          "isDefault": true,
++          "isDeprecated": false,
++          "architecture": "arm",
++          "triple": "arm-linux-androideabi",
++          "llvmTriple": "armv7-none-linux-androideabi"
++        },
++        {
++          "name": "arm64-v8a",
++          "bitness": 64,
++          "isDefault": true,
++          "isDeprecated": false,
++          "architecture": "arm64",
++          "triple": "aarch64-linux-android",
++          "llvmTriple": "aarch64-none-linux-android"
++        },
++        {
++          "name": "x86",
++          "bitness": 32,
++          "isDefault": true,
++          "isDeprecated": false,
++          "architecture": "x86",
++          "triple": "i686-linux-android",
++          "llvmTriple": "i686-none-linux-android"
++        },
++        {
++          "name": "x86_64",
++          "bitness": 64,
++          "isDefault": true,
++          "isDeprecated": false,
++          "architecture": "x86_64",
++          "triple": "x86_64-linux-android",
++          "llvmTriple": "x86_64-none-linux-android"
++        }
++      ],
++      "cmakeToolchainFile": "/Users/kevin/Library/Android/sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake",
++      "cmake": {
++        "cmakeExe": "/Users/kevin/Library/Android/sdk/cmake/3.22.1/bin/cmake"
++      },
++      "stlSharedObjectMap": {
++        "LIBCXX_SHARED": {
++          "armeabi-v7a": "/Users/kevin/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
++          "arm64-v8a": "/Users/kevin/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
++          "x86": "/Users/kevin/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
++          "x86_64": "/Users/kevin/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
++        },
++        "LIBCXX_STATIC": {},
++        "NONE": {},
++        "SYSTEM": {}
++      },
++      "project": {
++        "rootBuildGradleFolder": "/Users/kevin/Hermawan/BantuSekolah/android",
++        "sdkFolder": "/Users/kevin/Library/Android/sdk",
++        "isBuildOnlyTargetAbiEnabled": true,
++        "isCmakeBuildCohabitationEnabled": false,
++        "isPrefabEnabled": true
++      },
++      "outputOptions": [],
++      "ninjaExe": "/Users/kevin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
++      "hasBuildTimeInformation": true
++    },
++    "prefabClassPaths": [
++      "/Users/kevin/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar"
++    ],
++    "prefabPackages": [
++      "/Users/kevin/.gradle/caches/transforms-4/e66d8d99b1d5312de9d2d1b90139c764/transformed/jetified-react-android-0.74.3-debug/prefab",
++      "/Users/kevin/.gradle/caches/transforms-4/c7e26f7d3c2fc1a6636ff1467fc77795/transformed/jetified-fbjni-0.6.0/prefab"
++    ],
++    "prefabPackageConfigurations": [],
++    "stlType": "c++_shared",
++    "optimizationTag": "Debug"
++  },
++  "buildSettings": {
++    "environmentVariables": []
++  },
++  "prefabFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/prefab/arm64-v8a",
++  "isActiveAbi": true,
++  "fullConfigurationHash": "6f1p332s2spf2k3j3a5q2w601y1r1w6y3j4w5c743306l4k6zz4s1pm414r",
++  "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.2.1.\n#   - $NDK is the path to NDK 26.1.10909125.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_CXX_FLAGS\u003d-O2 -fexceptions -frtti -std\u003dc++1y -DONANDROID\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/$HASH/prefab/$ABI/prefab\n-B/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/$HASH/$ABI\n-GNinja\n-DANDROID_STL\u003dc++_shared\n-DSQLITE_FLAGS\u003d\u0027\u0027\n-DUSE_HERMES\u003dtrue",
++  "configurationArguments": [
++    "-H/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android",
++    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
++    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
++    "-DCMAKE_SYSTEM_VERSION\u003d21",
++    "-DANDROID_PLATFORM\u003dandroid-21",
++    "-DANDROID_ABI\u003darm64-v8a",
++    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
++    "-DANDROID_NDK\u003d/Users/kevin/Library/Android/sdk/ndk/26.1.10909125",
++    "-DCMAKE_ANDROID_NDK\u003d/Users/kevin/Library/Android/sdk/ndk/26.1.10909125",
++    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/kevin/Library/Android/sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake",
++    "-DCMAKE_MAKE_PROGRAM\u003d/Users/kevin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
++    "-DCMAKE_CXX_FLAGS\u003d-O2 -fexceptions -frtti -std\u003dc++1y -DONANDROID",
++    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/obj/arm64-v8a",
++    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/obj/arm64-v8a",
++    "-DCMAKE_BUILD_TYPE\u003dDebug",
++    "-DCMAKE_FIND_ROOT_PATH\u003d/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/prefab/arm64-v8a/prefab",
++    "-B/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a",
++    "-GNinja",
++    "-DANDROID_STL\u003dc++_shared",
++    "-DSQLITE_FLAGS\u003d\u0027\u0027",
++    "-DUSE_HERMES\u003dtrue"
++  ],
++  "stlLibraryFile": "/Users/kevin/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
++  "intermediatesParentFolder": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_1124_timing.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_1124_timing.txt
+new file mode 100644
+index 0000000..92d88f7
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_1124_timing.txt
+@@ -0,0 +1,7 @@
++# C/C++ build system timings
++generate_cxx_metadata
++  generate-prefab-packages
++    exec-prefab 431ms
++  generate-prefab-packages completed in 435ms
++generate_cxx_metadata completed in 443ms
++
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_1273_timing.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_1273_timing.txt
+new file mode 100644
+index 0000000..46ec184
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_1273_timing.txt
+@@ -0,0 +1,7 @@
++# C/C++ build system timings
++generate_cxx_metadata
++  generate-prefab-packages
++    exec-prefab 253ms
++  generate-prefab-packages completed in 255ms
++generate_cxx_metadata completed in 257ms
++
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_967_timing.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_967_timing.txt
+new file mode 100644
+index 0000000..4b78b84
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/generate_cxx_metadata_967_timing.txt
+@@ -0,0 +1,7 @@
++# C/C++ build system timings
++generate_cxx_metadata
++  generate-prefab-packages
++    exec-prefab 240ms
++  generate-prefab-packages completed in 245ms
++generate_cxx_metadata completed in 249ms
++
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/metadata_generation_record.json b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/metadata_generation_record.json
+new file mode 100644
+index 0000000..dd5aef5
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/metadata_generation_record.json
+@@ -0,0 +1,80 @@
++[
++  {
++    "level_": 0,
++    "message_": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
++    "file_": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/CMakeLists.txt",
++    "tag_": "debug|arm64-v8a",
++    "diagnosticCode_": 0,
++    "memoizedIsInitialized": 1,
++    "unknownFields": {
++      "fields": {}
++    },
++    "memoizedSize": -1,
++    "memoizedHashCode": 0
++  },
++  {
++    "level_": 0,
++    "message_": "rebuilding JSON /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/.cxx/Debug/6f1p332s/arm64-v8a/android_gradle_build.json due to:",
++    "file_": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/CMakeLists.txt",
++    "tag_": "debug|arm64-v8a",
++    "diagnosticCode_": 0,
++    "memoizedIsInitialized": 1,
++    "unknownFields": {
++      "fields": {}
++    },
++    "memoizedSize": -1,
++    "memoizedHashCode": 0
++  },
++  {
++    "level_": 0,
++    "message_": "- no fingerprint file, will remove stale configuration folder",
++    "file_": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/CMakeLists.txt",
++    "tag_": "debug|arm64-v8a",
++    "diagnosticCode_": 0,
++    "memoizedIsInitialized": 1,
++    "unknownFields": {
++      "fields": {}
++    },
++    "memoizedSize": -1,
++    "memoizedHashCode": 0
++  },
++  {
++    "level_": 0,
++    "message_": "/opt/homebrew/Cellar/openjdk@17/17.0.11/libexec/openjdk.jdk/Contents/Home/bin/java \\\n  --class-path \\\n  /Users/kevin/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar \\\n  com.google.prefab.cli.AppKt \\\n  --build-system \\\n  cmake \\\n  --platform \\\n  android \\\n  --abi \\\n  arm64-v8a \\\n  --os-version \\\n  21 \\\n  --stl \\\n  c++_shared \\\n  --ndk-version \\\n  26 \\\n  --output \\\n  /var/folders/z_/ywfl26qj4m9fm0k5f5s03gl00000gn/T/agp-prefab-staging565219872436890605/staged-cli-output \\\n  /Users/kevin/.gradle/caches/transforms-4/e66d8d99b1d5312de9d2d1b90139c764/transformed/jetified-react-android-0.74.3-debug/prefab \\\n  /Users/kevin/.gradle/caches/transforms-4/c7e26f7d3c2fc1a6636ff1467fc77795/transformed/jetified-fbjni-0.6.0/prefab\n",
++    "file_": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/CMakeLists.txt",
++    "tag_": "debug|arm64-v8a",
++    "diagnosticCode_": 0,
++    "memoizedIsInitialized": 1,
++    "unknownFields": {
++      "fields": {}
++    },
++    "memoizedSize": -1,
++    "memoizedHashCode": 0
++  },
++  {
++    "level_": 0,
++    "message_": "Received process result: 0",
++    "file_": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/CMakeLists.txt",
++    "tag_": "debug|arm64-v8a",
++    "diagnosticCode_": 0,
++    "memoizedIsInitialized": 1,
++    "unknownFields": {
++      "fields": {}
++    },
++    "memoizedSize": -1,
++    "memoizedHashCode": 0
++  },
++  {
++    "level_": 1,
++    "message_": "com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/fabricjni. Rejected the following libraries:",
++    "file_": "/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/CMakeLists.txt",
++    "tag_": "debug|arm64-v8a",
++    "diagnosticCode_": 0,
++    "memoizedIsInitialized": 1,
++    "unknownFields": {
++      "fields": {}
++    },
++    "memoizedSize": -1,
++    "memoizedHashCode": 0
++  }
++]
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/prefab_command b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/prefab_command
+new file mode 100755
+index 0000000..e3ef7ec
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/prefab_command
+@@ -0,0 +1,20 @@
++/opt/homebrew/Cellar/openjdk@17/17.0.11/libexec/openjdk.jdk/Contents/Home/bin/java \
++  --class-path \
++  /Users/kevin/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar \
++  com.google.prefab.cli.AppKt \
++  --build-system \
++  cmake \
++  --platform \
++  android \
++  --abi \
++  arm64-v8a \
++  --os-version \
++  21 \
++  --stl \
++  c++_shared \
++  --ndk-version \
++  26 \
++  --output \
++  /var/folders/z_/ywfl26qj4m9fm0k5f5s03gl00000gn/T/agp-prefab-staging565219872436890605/staged-cli-output \
++  /Users/kevin/.gradle/caches/transforms-4/e66d8d99b1d5312de9d2d1b90139c764/transformed/jetified-react-android-0.74.3-debug/prefab \
++  /Users/kevin/.gradle/caches/transforms-4/c7e26f7d3c2fc1a6636ff1467fc77795/transformed/jetified-fbjni-0.6.0/prefab
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/prefab_stderr.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/prefab_stderr.txt
+new file mode 100644
+index 0000000..f0ba97d
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/prefab_stderr.txt
+@@ -0,0 +1,170 @@
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/fabricjni. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/folly_runtime. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/glog. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/hermes_executor. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/jscexecutor. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/jsi. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/jsinspector. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_codegen_rncore. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_cxxreactpackage. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_debug. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_nativemodule_core. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_newarchdefaults. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_animations. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_componentregistry. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_core. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_debug. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_graphics. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_imagemanager. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_mapbuffer. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_mounting. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_scheduler. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_textlayoutmanager. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_render_uimanager. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/react_utils. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/reactnativejni. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/rrc_image. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/rrc_legacyviewmanagerinterop. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/rrc_root. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/rrc_text. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/rrc_textinput. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/rrc_view. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/runtimeexecutor. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/turbomodulejsijni. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
++com.google.prefab.api.NoMatchingLibraryException: No compatible library found for //ReactAndroid/yoga. Rejected the following libraries:
++android.arm64-v8a: User has minSdkVersion 21 but library was built for 23
++android.armeabi-v7a: User is targeting arm64-v8a but library is for armeabi-v7a
++android.x86: User is targeting arm64-v8a but library is for x86
++android.x86_64: User is targeting arm64-v8a but library is for x86_64
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/prefab_stdout.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/cxx/Debug/6f1p332s/logs/arm64-v8a/prefab_stdout.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..1092125
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Tue Jul 09 20:55:30 WIB 2024
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..4c097fc
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..2ce5ecc
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/packageDebugAssets/merger.xml b/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+new file mode 100644
+index 0000000..8851d2f
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/build/intermediates/shader_assets/debug/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/BuildConfig.class b/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/BuildConfig.class
+new file mode 100644
+index 0000000..0e69a3b
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/BuildConfig.class differ
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/QuickSQLiteBridge.class b/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/QuickSQLiteBridge.class
+new file mode 100644
+index 0000000..08396d0
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/QuickSQLiteBridge.class differ
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/SequelModule.class b/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/SequelModule.class
+new file mode 100644
+index 0000000..2c123a9
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/SequelModule.class differ
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/SequelPackage.class b/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/SequelPackage.class
+new file mode 100644
+index 0000000..d78a2bf
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/intermediates/javac/debug/classes/com/reactnativequicksqlite/SequelPackage.class differ
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/local_only_symbol_list/debug/R-def.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..a67baa4
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,7 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.reactnativequicksqlite" >
++4
++5    <uses-sdk android:minSdkVersion="21" />
++6
++7</manifest>
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml b/node_modules/react-native-quick-sqlite/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+new file mode 100644
+index 0000000..65ada26
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.reactnativequicksqlite" >
++
++    <uses-sdk android:minSdkVersion="21" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/navigation_json/debug/navigation.json b/node_modules/react-native-quick-sqlite/android/build/intermediates/navigation_json/debug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/navigation_json/debug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar b/node_modules/react-native-quick-sqlite/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar
+new file mode 100644
+index 0000000..9fb3961
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-quick-sqlite/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt b/node_modules/react-native-quick-sqlite/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+new file mode 100644
+index 0000000..1ab64fc
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+@@ -0,0 +1 @@
++com.reactnativequicksqlite
+diff --git a/node_modules/react-native-quick-sqlite/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/react-native-quick-sqlite/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..b77b508
+--- /dev/null
++++ b/node_modules/react-native-quick-sqlite/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,17 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml:1:1-4:12
++INJECTED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml:1:1-4:12
++	package
++		ADDED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml:2:11-47
++		INJECTED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml:1:11-69
++uses-sdk
++INJECTED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml
++INJECTED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/kevin/Hermawan/BantuSekolah/node_modules/react-native-quick-sqlite/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-quick-sqlite/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-quick-sqlite/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..ef93f2f
+Binary files /dev/null and b/node_modules/react-native-quick-sqlite/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
